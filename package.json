@@ -7,7 +7,9 @@
   "homepage": "https://github.com/kevinpollet/use-package-json-metadata-action#readme",
   "keywords": [
     "github-action",
-    "nodejs"
+    "node-js",
+    "metadata",
+    "package-json"
   ],
   "scripts": {
     "format": "prettier --write '**/*.{json,js,md,yml}'"
