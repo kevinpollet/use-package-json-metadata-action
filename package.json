@@ -15,7 +15,7 @@
     "package-json"
   ],
   "scripts": {
-    "format": "prettier --write '**/*.{json,js,md,yml}'"
+    "format": "prettier --write '**/*.{json,js,md}'"
   },
   "dependencies": {
     "@octokit/plugin-retry": "2.2.0",
@@ -27,10 +27,12 @@
     "prettier": "1.17.1"
   },
   "husky": {
-    "pre-commit": "lint-staged"
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   },
   "lint-staged": {
-    "*.{json,js,md,yml}": [
+    "*.{json,js,md}": [
       "prettier --write",
       "git add"
     ]
