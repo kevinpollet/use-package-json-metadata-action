@@ -4,7 +4,10 @@
   "description": "Use package.json metadata as GitHub repository description, homepage and tags",
   "author": "kevinpollet <pollet.kevin@gmail.com>",
   "license": "MIT",
+  "private": true,
   "homepage": "https://github.com/kevinpollet/use-package-json-metadata-action#readme",
+  "repository": "github:kevinpollet/use-package-json-metadata-action",
+  "bugs": "https://github.com/kevinpollet/use-package-json-metadata-action/issues",
   "keywords": [
     "github-action",
     "node-js",
