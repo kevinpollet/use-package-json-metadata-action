@@ -17,4 +17,4 @@ RUN npm install --production
 
 COPY lib lib/
 
-ENTRYPOINT [ "/sbin/tini", "--", "node", "lib/index.js"  ]
+ENTRYPOINT [ "/sbin/tini", "--", "node", "/lib/index.js"  ]
