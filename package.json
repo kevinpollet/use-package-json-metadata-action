@@ -9,7 +9,13 @@
     "github-action",
     "nodejs"
   ],
+  "scripts": {
+    "format": "prettier --write '**/*.{json,js,md,yml}'"
+  },
   "dependencies": {
     "@octokit/rest": "16.25.4"
+  },
+  "devDependencies": {
+    "prettier": "1.17.1"
   }
 }

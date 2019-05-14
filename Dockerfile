@@ -13,6 +13,6 @@ RUN apk add --no-cache tini
 
 COPY package*.json ./
 
-RUN npm ci
+RUN npm install --production
 
 ENTRYPOINT [ "/sbin/tini", "--", "node", "index.js"  ]
