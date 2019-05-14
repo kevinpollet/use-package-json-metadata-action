@@ -8,7 +8,7 @@ Use `package.json` metadata as GitHub repository description, homepage and tags.
 2. Add the generated GitHub token as a secret to your repository with the name `GH_TOKEN` (Go to the repo **Settings > Secrets**)
 3. Add the following configuration to your workflow file:
 
-```json
+```js
 workflow "Use package.json metadata as GitHub repository metadata" {
   on = "push"
   resolves = "use-package-json-metadata-action"
