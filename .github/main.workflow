@@ -1,6 +1,6 @@
 workflow "Test" {
   on = "push"
-  resolves = ["use-package-json-metadata-action "]
+  resolves = ["use-package-json-metadata-action"]
 }
 
 action "use-package-json-metadata-action" {
