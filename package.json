@@ -1,6 +1,6 @@
 {
   "name": "use-package-json-metadata-action",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Use package.json metadata as GitHub repository description, homepage and tags",
   "author": "kevinpollet <pollet.kevin@gmail.com>",
   "license": "MIT",
