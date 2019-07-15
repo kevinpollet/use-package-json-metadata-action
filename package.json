@@ -19,12 +19,12 @@
   },
   "dependencies": {
     "@octokit/plugin-retry": "2.2.0",
-    "@octokit/rest": "16.25.4"
+    "@octokit/rest": "16.28.4"
   },
   "devDependencies": {
-    "husky": "2.2.0",
-    "lint-staged": "8.1.6",
-    "prettier": "1.17.1"
+    "husky": "3.0.0",
+    "lint-staged": "9.2.0",
+    "prettier": "1.18.2"
   },
   "husky": {
     "hooks": {
